@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    background-color:aliceblue
+}
+.head
+{
+    color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+}
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+.link
+{
+    text-align: center;
+}

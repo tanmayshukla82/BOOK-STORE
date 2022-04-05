@@ -1,0 +1,9 @@
+.pad{
+    padding: 1rem
+}
+.books-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
