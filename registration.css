@@ -1,0 +1,12 @@
+body{
+    background-color :aliceblue;
+}
+.form-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    padding:.5rem;
+}

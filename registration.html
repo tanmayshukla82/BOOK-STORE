@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div style="text-align: center;"><h2><i>REGISTRATION FORM</i></h2></div>
+    <div class="form-wrapper">
+        <div class="form">
+            <form action="">
+            <fieldset style="border-radius: 0.7rem;">
+                <legend><i>Registration Form</i></legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName"><b>First Name</b></label></td>
+                            <td><input type="text" name="firstName" placeholder="First Name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastName"><b>Last Name</b></label></td>
+                            <td><input type="text" name="lastName" placeholder="Last Name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="age"><b>Age</b></label></td>
+                            <td><input type="number" name="age" placeholder="Age" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emailId"><b>Email</b></label></td>
+                            <td><input type="email" name="email" placeholder="Email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="altEmail"><b>Alternate Email Id</b></label></td>
+                            <td><input type="email" name="altEmail" placeholder="Alternate Email Id" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address"><b>Address</b></label></td>
+                            <td><textarea name="address" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone"><b>Alternate Email Id</b></label></td>
+                            <td><input type="number" name="phone" placeholder="Phone Numer" max="10" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="occupation"><b>Occupation</b></label></td>
+                            <td><input type="text" name="phone" placeholder="Occupation" required></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="term" value="agree">
+                                <label for="agree"><b>I Agree Terms & Condition</b></label>
+                                <input type="radio" name="term" value="disagree">
+                                <label for="disagree"><b>I disagree</b></label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="submit" style="margin-right: 2rem;">Submit</button>
+                                <button id="reset">Reset</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>
